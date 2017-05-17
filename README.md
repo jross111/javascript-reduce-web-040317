@@ -175,7 +175,7 @@ console.log(reduce(couponLocations, couponCounter, 3)); // prints 18
 
 ![A programmer in its natural habitat.](https://media.giphy.com/media/129fSchexp3aPC/giphy.gif)
 
-Fortunately, all programmers are inherently lazy. Who wants to write this stuff over and over again? Don't despair — it seems someone has already done the hard work for us! `Array.prototype.reduce()` is an array method which does _exactly_ the same thing as our own `reduce()` function. So, no need to port over our `reduce()` function to all of our projects — **it's already in the standard JS library**. Don't feel misled, now you know exactly how reduce works!
+Fortunately, all programmers are inherently lazy. Who wants to write this stuff over and over again? Don't despair — it seems someone has already done the hard work for us! `Array.prototype.reduce()` is an array method which does _exactly_ the same thing as our own `reduce()` function. So, no needf to port over our `reduce()` function to all of our projects — **it's already in the standard JS library**. Don't feel misled, now you know exactly how reduce works!
 
 The proof is in the pudding, so let's take the native implementation for a spin:
 
